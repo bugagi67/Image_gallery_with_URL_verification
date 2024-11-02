@@ -3,7 +3,7 @@
 
 [![Build status](https://ci.appveyor.com/api/projects/status/allpe05537oi3xg5?svg=true)](https://ci.appveyor.com/project/bugagi67/image-gallery-with-url-verification)
 
-GH-pages - 
+GH-pages - https://bugagi67.github.io/Image_gallery_with_URL_verification/
 
 Описание:
 
