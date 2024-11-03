@@ -4,7 +4,7 @@ const HtmlWebPackPlugin = require("html-webpack-plugin");
 module.exports = {
   output: {
     path: path.resolve(__dirname, "dist"),
-    publicPath: "",
+    publicPath: "./",
   },
   module: {
     rules: [
@@ -34,14 +34,13 @@ module.exports = {
     ],
   },
   optimization: {
-    minimize: false, // Отключает минимизацию CSS
+    minimize: true, // Отключает минимизацию CSS
   },
   plugins: [
     new HtmlWebPackPlugin({
       template: "./src/index.html",
       filename: "index.html",
       inject: "body",
-      publicPath: "./",
     }),
   ],
 };

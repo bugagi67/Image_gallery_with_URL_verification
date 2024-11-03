@@ -23,12 +23,13 @@ body {
   gap: 10px;
   margin-bottom: 20px;
 }
-.form-container label {
+label {
   display: flex;
   justify-content: space-between;
+  align-items: flex-end;
 }
-.form-container input[type="text"] {
-  width: 100%;
+.title, .image_link {
+  width: 75%;
   padding: 5px;
   margin-left: 10px;
   border: 1px solid #ccc;
