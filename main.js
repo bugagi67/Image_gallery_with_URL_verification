@@ -23,11 +23,8 @@ ___CSS_LOADER_EXPORT___.push([module.id, `* {
 body {
   font-family: Arial, sans-serif;
   background-color: #f3f3f3;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: block;
   height: 100vh;
-  margin: 0;
 }
 .container {
   width: 880px;
@@ -35,6 +32,8 @@ body {
   background-color: white;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  margin: auto;
+  margin-top: 10%;
 }
 .form-container {
   display: flex;
