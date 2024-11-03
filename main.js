@@ -42,12 +42,13 @@ body {
   gap: 10px;
   margin-bottom: 20px;
 }
-.form-container label {
+label {
   display: flex;
   justify-content: space-between;
+  align-items: flex-end;
 }
-.form-container input[type="text"] {
-  width: 100%;
+.title, .image_link {
+  width: 75%;
   padding: 5px;
   margin-left: 10px;
   border: 1px solid #ccc;
@@ -6089,6 +6090,11 @@ var PictureManager = /*#__PURE__*/function () {
   }]);
 }();
 
+;// ./src/js/app.js
+
+document.addEventListener("DOMContentLoaded", function () {
+  new PictureManager();
+});
 // EXTERNAL MODULE: ./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js
 var injectStylesIntoStyleTag = __webpack_require__(5072);
 var injectStylesIntoStyleTag_default = /*#__PURE__*/__webpack_require__.n(injectStylesIntoStyleTag);
@@ -6136,13 +6142,8 @@ var update = injectStylesIntoStyleTag_default()(style/* default */.A, options);
 
        /* harmony default export */ const css_style = (style/* default */.A && style/* default */.A.locals ? style/* default */.A.locals : undefined);
 
-;// ./src/js/app.js
-
-
-document.addEventListener("DOMContentLoaded", function () {
-  new PictureManager();
-});
 ;// ./src/index.js
+
 
 /******/ })()
 ;
